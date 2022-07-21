@@ -1,0 +1,18 @@
+2022-07-20T06:57:48+00:00 CRITICAL Cannot declare class WC_Gateway_Mpesa, because the name is already in use in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php on line 106
+
+2022-07-20T06:58:56+00:00 CRITICAL Cannot declare class WC_Gateway_Mpesa, because the name is already in use in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php on line 106
+
+2022-07-20T06:59:26+00:00 CRITICAL Cannot declare class WC_Gateway_Mpesa, because the name is already in use in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php on line 106
+
+2022-07-20T10:52:14+00:00 CRITICAL Cannot redeclare woompesa_adds_to_the_head() (previously declared in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php:29) in C:\wamp64\www\E-Commerce\wp-content\plugins\mpesa-wordpress-plugin-master\Woocommerce_mpesa.php on line 29
+
+2022-07-20T10:52:16+00:00 CRITICAL Cannot redeclare woompesa_adds_to_the_head() (previously declared in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php:29) in C:\wamp64\www\E-Commerce\wp-content\plugins\mpesa-wordpress-plugin-master\Woocommerce_mpesa.php on line 29
+
+2022-07-20T10:52:16+00:00 CRITICAL Cannot redeclare woompesa_adds_to_the_head() (previously declared in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php:29) in C:\wamp64\www\E-Commerce\wp-content\plugins\mpesa-wordpress-plugin-master\Woocommerce_mpesa.php on line 29
+
+2022-07-20T11:00:21+00:00 CRITICAL Cannot redeclare woompesa_adds_to_the_head() (previously declared in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php:29) in C:\wamp64\www\E-Commerce\wp-content\plugins\mpesa-wordpress-plugin-master\Woocommerce_mpesa.php on line 29
+
+2022-07-20T11:00:24+00:00 CRITICAL Cannot redeclare woompesa_adds_to_the_head() (previously declared in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php:29) in C:\wamp64\www\E-Commerce\wp-content\plugins\mpesa-wordpress-plugin-master\Woocommerce_mpesa.php on line 29
+
+2022-07-20T11:00:24+00:00 CRITICAL Cannot redeclare woompesa_adds_to_the_head() (previously declared in C:\wamp64\www\E-Commerce\wp-content\plugins\woo-m-pesa-payment-gateway\Woocommerce_mpesa.php:29) in C:\wamp64\www\E-Commerce\wp-content\plugins\mpesa-wordpress-plugin-master\Woocommerce_mpesa.php on line 29
+
