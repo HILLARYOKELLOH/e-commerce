@@ -192,8 +192,8 @@ if ( ! class_exists( 'Kadence_Woomail_Preview' ) ) {
 		 * @return void
 		 */
 		public function set_up_preview() {
-			// Make sure this is own preview request.
-			if ( ! Kadence_Woomail_Designer::is_own_preview_request() ) {
+			// Make sure this is own preview request, the user is logged in, and has permissions to view and we are in the customizer.
+			if ( ! Kadence_Woomail_Designer::is_own_preview_request() || ! is_customize_preview() || ! is_user_logged_in() || ! Kadence_Woomail_Designer::is_admin() ) {
 				return;
 			}
 			// Load main view.

@@ -1,0 +1,19 @@
+2022-10-31T13:43:12+00:00 CRITICAL Uncaught Error: Call to a member function get_order() on null in C:\xampp\htdocs\E-Commerce\wp-content\plugins\woocommerce\includes\wc-order-functions.php:83
+Stack trace:
+#0 C:\xampp\htdocs\E-Commerce\wp-content\plugins\osen-wc-mpesa-master\src\Post\Metaboxes\C2B.php(112): wc_get_order(8)
+#1 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(307): Osen\Woocommerce\Post\Metaboxes\C2B->save_order(8, Object(WP_Post), false)
+#2 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\E-Commerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\E-Commerce\wp-includes\post.php(4673): do_action('save_post', 8, Object(WP_Post), false)
+#5 C:\xampp\htdocs\E-Commerce\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(130): wp_insert_post(Array)
+#6 C:\xampp\htdocs\E-Commerce\wp-content\plugins\woocommerce\includes\class-wc-install.php(761): wc_create_page('shop', 'woocommerce_sho...', 'Shop', '', '', 'publish')
+#7 C:\xampp\htdocs\E-Commerce\wp-content\plugins\woocommerce\includes\class-wc-install.php(686): WC_Install::create_pages()
+#8 C:\xampp\htdocs\E-Commerce\wp-content\plugins\woocommerce\includes\class-wc-install.php(387): WC_Install::maybe_create_pages()
+#9 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(307): WC_Install::install(false)
+#10 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\E-Commerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\E-Commerce\wp-admin\includes\plugin.php(691): do_action('activate_woocom...', false)
+#13 C:\xampp\htdocs\E-Commerce\wp-admin\plugins.php(58): activate_plugin('woocommerce/woo...', 'http://localhos...', false)
+#14 {main}
+  thrown in C:\xampp\htdocs\E-Commerce\wp-content\plugins\woocommerce\includes\wc-order-functions.php on line 83
+

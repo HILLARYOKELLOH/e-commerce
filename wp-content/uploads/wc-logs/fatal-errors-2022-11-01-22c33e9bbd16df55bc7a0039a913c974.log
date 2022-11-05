@@ -1,0 +1,45 @@
+2022-11-01T12:49:48+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\sources\local.php:837
+Stack trace:
+#0 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(472): Elementor\TemplateLibrary\Source_Local->import_template('deli.2.0.15.zip', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(571): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(603): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\E-Commerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\E-Commerce\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 837
+
+2022-11-01T12:50:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\sources\local.php:837
+Stack trace:
+#0 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(472): Elementor\TemplateLibrary\Source_Local->import_template('deli.2.0.15.zip', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(571): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(603): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\E-Commerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\E-Commerce\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 837
+
+2022-11-01T12:51:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\sources\local.php:837
+Stack trace:
+#0 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(472): Elementor\TemplateLibrary\Source_Local->import_template('deli.2.0.15.zip', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(571): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\manager.php(603): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\E-Commerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\E-Commerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\E-Commerce\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\E-Commerce\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 837
+

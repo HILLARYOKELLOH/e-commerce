@@ -5,7 +5,7 @@ Donate link: https://www.kadencewp.com/about-us/
 Requires PHP: 5.2.4
 Requires at least: 5.3
 Tested up to: 6.0
-Stable tag: 1.5.2
+Stable tag: 1.5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,6 +80,21 @@ After you create your translations make sure to clear your server cache from any
 
 
 == Changelog ==
+
+= 1.5.7 =
+* Fix: Possible issue with admin+ PHP objection injection in settings importer.
+
+= 1.5.6 =
+* Fix: Prevent email mockup url from direct access.
+
+= 1.5.5 =
+* Fix: Possible bug with placeholders and WPML
+
+= 1.5.4 =
+* Fix: Possible bug with get_id for WPML filter.
+
+= 1.5.3 =
+* Update: Add some filters for body content and subtitle WPML support.
 
 = 1.5.2 =
 * Update: Template version numbers to prevent confusion.
