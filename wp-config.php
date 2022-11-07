@@ -21,31 +21,31 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-//define( 'DB_NAME', 'E-commerce' );
+define( 'DB_NAME', 'E-commerce' );
 
 /** Database username */
-//define( 'DB_USER', 'root' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-//define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-//define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'localhost' );
 
 
 
 //THIS IS REMOTE DATABASE
 
-define('DB_NAME', 'sql10543852');
+//define('DB_NAME', 'sql10543852');
 
 
-define('DB_USER', 'sql10543852');
+//define('DB_USER', 'sql10543852');
 
 /** Database password */
-define('DB_PASSWORD', 'YwXyYBi6CF');
+//define('DB_PASSWORD', 'YwXyYBi6CF');
 
 /** Database hostname */
-define('DB_HOST', 'sql10.freesqldatabase.com');
+//define('DB_HOST', 'sql10.freesqldatabase.com');
 
 
 /** Database charset to use in creating database tables. */
